@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MyFirstXMALApp/1.0.0": {
+        "runtime": {
+          "MyFirstXMALApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyFirstXMALApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

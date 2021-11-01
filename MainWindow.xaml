@@ -1,0 +1,29 @@
+﻿<Window x:Class="MyFirstXMALApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFirstXMALApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!--Controls-->
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="File" Margin="5"/>
+            <TextBlock Text="Edit" Margin="5"/>
+            <TextBlock Text="Format" Margin="5"/>
+            <TextBlock Text="View" Margin="5"/>
+        </StackPanel>
+
+        <TextBox Grid.Row="1"/>
+
+        <TextBlock Grid.Row="2" Text="Status Bar"/>
+
+    </Grid>
+</Window>
